@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-16T01:02:10 PDT" name="TestLoginWDtPd Suite" finished-at="2022-09-16T01:02:58 PDT" duration-ms="48016">
+  <suite started-at="2022-09-20T02:30:58 PDT" name="TestLoginWDtPd Suite" finished-at="2022-09-20T02:31:42 PDT" duration-ms="44181">
     <groups>
     </groups>
-    <test started-at="2022-09-16T01:02:10 PDT" name="TestLoginWDtPd Test" finished-at="2022-09-16T01:02:58 PDT" duration-ms="48016">
+    <test started-at="2022-09-20T02:30:58 PDT" name="TestLoginWDtPd Test" finished-at="2022-09-20T02:31:42 PDT" duration-ms="44181">
       <class name="testCases.TestLoginWithDataProvider">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:13 PDT" name="setUp" finished-at="2022-09-16T01:02:19 PDT" duration-ms="6543" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:30:59 PDT" name="setUp" finished-at="2022-09-20T02:31:04 PDT" duration-ms="4955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:19 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-16T01:02:25 PDT" duration-ms="6174" status="PASS">
+        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:04 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-20T02:31:10 PDT" duration-ms="6190" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:25 PDT" name="tearDown" finished-at="2022-09-16T01:02:26 PDT" duration-ms="940" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:10 PDT" name="tearDown" finished-at="2022-09-20T02:31:11 PDT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:26 PDT" name="setUp" finished-at="2022-09-16T01:02:29 PDT" duration-ms="2839" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:11 PDT" name="setUp" finished-at="2022-09-20T02:31:13 PDT" duration-ms="2240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:29 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-16T01:02:35 PDT" duration-ms="6158" status="FAIL">
+        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:13 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-20T02:31:19 PDT" duration-ms="6307" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at pages.SignInPage2.signIn(SignInPage2.java:61)
+at pages.SignInPage2.signIn(SignInPage2.java:60)
 at testCases.TestLoginWithDataProvider.logInTest(TestLoginWithDataProvider.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -96,15 +96,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:35 PDT" name="tearDown" finished-at="2022-09-16T01:02:36 PDT" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:19 PDT" name="tearDown" finished-at="2022-09-20T02:31:20 PDT" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:36 PDT" name="setUp" finished-at="2022-09-16T01:02:38 PDT" duration-ms="2418" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:20 PDT" name="setUp" finished-at="2022-09-20T02:31:22 PDT" duration-ms="2190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:38 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-16T01:02:41 PDT" duration-ms="3022" status="FAIL">
+        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:22 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-20T02:31:25 PDT" duration-ms="2977" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -124,10 +124,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'BLOOPY', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e82fb50f7d461feba760748b0ebce2ed, sendKeysToElement {id=6cc2c7fb-82eb-4c7f-a630-5090aed78b08, value=[Ljava.lang.CharSequence;@247c43c6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Hua\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52834/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e82fb50f7d461feba760748b0ebce2ed)] -> xpath: //input[@id='password']]
-Session ID: e82fb50f7d461feba760748b0ebce2ed]]>
+Command: [17c792e92ac4491ddf0dfd303b8c7c47, sendKeysToElement {id=aac753b9-8faf-43c6-b40e-37bb4d06e852, value=[Ljava.lang.CharSequence;@799c8758}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Hua\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61458/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (17c792e92ac4491ddf0dfd303b8c7c47)] -> xpath: //input[@id='password']]
+Session ID: 17c792e92ac4491ddf0dfd303b8c7c47]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -135,10 +135,10 @@ Session ID: e82fb50f7d461feba760748b0ebce2ed]]>
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'BLOOPY', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e82fb50f7d461feba760748b0ebce2ed, sendKeysToElement {id=6cc2c7fb-82eb-4c7f-a630-5090aed78b08, value=[Ljava.lang.CharSequence;@247c43c6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Hua\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52834/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e82fb50f7d461feba760748b0ebce2ed)] -> xpath: //input[@id='password']]
-Session ID: e82fb50f7d461feba760748b0ebce2ed
+Command: [17c792e92ac4491ddf0dfd303b8c7c47, sendKeysToElement {id=aac753b9-8faf-43c6-b40e-37bb4d06e852, value=[Ljava.lang.CharSequence;@799c8758}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Hua\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61458/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (17c792e92ac4491ddf0dfd303b8c7c47)] -> xpath: //input[@id='password']]
+Session ID: 17c792e92ac4491ddf0dfd303b8c7c47
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -158,8 +158,8 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at pages.SignInPage2.signIn(SignInPage2.java:58)
+at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+at pages.SignInPage2.signIn(SignInPage2.java:57)
 at testCases.TestLoginWithDataProvider.logInTest(TestLoginWithDataProvider.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -195,15 +195,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:41 PDT" name="tearDown" finished-at="2022-09-16T01:02:41 PDT" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:25 PDT" name="tearDown" finished-at="2022-09-20T02:31:25 PDT" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:41 PDT" name="setUp" finished-at="2022-09-16T01:02:43 PDT" duration-ms="2307" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:25 PDT" name="setUp" finished-at="2022-09-20T02:31:27 PDT" duration-ms="2164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:43 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-16T01:02:49 PDT" duration-ms="5988" status="FAIL">
+        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:27 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-20T02:31:33 PDT" duration-ms="6092" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -228,7 +228,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at pages.SignInPage2.signIn(SignInPage2.java:61)
+at pages.SignInPage2.signIn(SignInPage2.java:60)
 at testCases.TestLoginWithDataProvider.logInTest(TestLoginWithDataProvider.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -264,15 +264,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:49 PDT" name="tearDown" finished-at="2022-09-16T01:02:50 PDT" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:33 PDT" name="tearDown" finished-at="2022-09-20T02:31:33 PDT" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:50 PDT" name="setUp" finished-at="2022-09-16T01:02:52 PDT" duration-ms="2456" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:33 PDT" name="setUp" finished-at="2022-09-20T02:31:36 PDT" duration-ms="2552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:52 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-16T01:02:58 PDT" duration-ms="5948" status="PASS">
+        <test-method signature="logInTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:36 PDT" name="logInTest" data-provider="exceldp" finished-at="2022-09-20T02:31:42 PDT" duration-ms="6136" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,7 +288,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@62e8f862]" started-at="2022-09-16T01:02:58 PDT" name="tearDown" finished-at="2022-09-16T01:02:58 PDT" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginWithDataProvider@7b36aa0c]" started-at="2022-09-20T02:31:42 PDT" name="tearDown" finished-at="2022-09-20T02:31:42 PDT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

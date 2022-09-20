@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestLoginWDtPd Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestLoginWDtPd Test(failed)">
+    <classes>
+      <class name="testCases.TestLoginWithDataProvider">
+        <methods>
+          <include name="logInTest" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TestLoginWithDataProvider -->
+    </classes>
+  </test> <!-- TestLoginWDtPd Test(failed) -->
+</suite> <!-- Failed suite [TestLoginWDtPd Suite] -->

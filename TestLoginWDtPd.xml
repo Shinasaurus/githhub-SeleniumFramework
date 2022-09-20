@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestLoginWDtPd Suite">
+  <test thread-count="5" name="TestLoginWDtPd Test">
+    <classes>
+      <class name="testCases.TestLoginWithDataProvider"/>
+    </classes>
+  </test> <!-- TestLoginWDtPd Test -->
+</suite> <!-- TestLoginWDtPd Suite -->

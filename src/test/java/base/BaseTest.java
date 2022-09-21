@@ -58,8 +58,8 @@ public class BaseTest {
 	@AfterTest
 	public void tearDown() {
 		driver.close(); // bloopy change from quit to close on main branch
-		System.out.println("bloopybranchy");
-		System.out.println("some more...");
+		System.out.println("bloopybranchy child branch");
+		
 		
         
 	}

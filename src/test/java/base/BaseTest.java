@@ -57,6 +57,6 @@ public class BaseTest {
 
 	@AfterTest
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 }  //Pretend shine edit 10 hours later

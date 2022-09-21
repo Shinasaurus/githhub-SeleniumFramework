@@ -7,6 +7,11 @@ public class TestProfile {
 System.out.println("edit by bloopy");
 
 System.out.println("Bloopy branch 1st edit");
+
+
+
+System.out.println("Shine branch edit later than bloopy branch edit");
+
 	}
 
 }

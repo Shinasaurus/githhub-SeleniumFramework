@@ -57,6 +57,6 @@ public class BaseTest {
 
 	@AfterTest
 	public void tearDown() {
-		driver.close();
+		driver.close(); // bloopy change from quit to close on main branch
 	}
 }  //Pretend shine edit 10 hours later

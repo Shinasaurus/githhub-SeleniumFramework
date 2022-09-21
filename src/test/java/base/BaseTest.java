@@ -58,10 +58,8 @@ public class BaseTest {
 	@AfterTest
 	public void tearDown() {
 
-		driver.quit(); // changed to quit from close by main branch after childbranch created
-		
-
-		System.out.println("bloopybranchy child branch");
+		driver.close(); // bloopy change from quit to close on main branch
+		System.out.println("message add from main when solving conflict");
 		
 
 		

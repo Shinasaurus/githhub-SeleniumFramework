@@ -22,6 +22,7 @@ public class Log4jDemoAgain {
 		demoLogger.debug("This is debug");
 		demoLogger.fatal("This is fatal");
 		demoLogger.trace("This is trace");
+		demoLogger.fatal("fatal message just for localbranch2");
 		
 
 	}

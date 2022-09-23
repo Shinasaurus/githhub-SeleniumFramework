@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+<Properties>
+     <!--  ./logs means to create a folder named "logs" at root level of the project -->
+    <Property name="filename">./logs</Property>
+  </Properties>
+  
+	<Appenders>
+                                 <!-- fileName="${filename}" this part refers to the ./logs folder in Property above-->                  
+		<RollingFile name="file" fileName="${filename}/logdemo.log" filePattern="${filename}/Logdemo-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 KB" /> 
+			<!-- size=1KB here means soon as 1st log file reach this size, a new file with time stamp as defined above: "{HH-mm-ss-SSS}".log will be created  -->
+		</RollingFile>
+
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+	
+	<!--logger tag applies to package-->
+	<!-- If additivity is set to "true": The appender associated with logger "log4jagain" is first used, which writes the first instance to the Console.
+    Next, the parent of "log4jagain", which in this case is the root logger, is referenced. The event is then passed to its appender, which is also writes to the Console, 
+    resulting in the second instance. This is known as additivity. While additivity can be quite a convenient feature, 
+   in many cases this behavior is considered undesirable and so it is possible to disable it by setting the additivity attribute on the logger to false-->
+   
+		<Logger name="log4jagain" level="trace" additivity="false">
+		
+		 <!-- AppenderRef dictates where to display logs, here in both console and log file, you can delete console one, to only have logs display in log file -->
+		 
+		 <!-- <AppenderRef ref="Console" /> -->
+			  <AppenderRef ref="file" />
+		</Logger>
+
+		<!-- Root tag applies to whole project-->
+		<Root level="fatal">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="file" />
+		</Root>
+		
+	</Loggers>
+</Configuration>
